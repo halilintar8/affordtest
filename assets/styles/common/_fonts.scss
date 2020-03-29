@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('../fonts/proximanova-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+      url('../fonts/proximanova-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+      url('../fonts/proximanova-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+      url('../fonts/proximanova-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('../fonts/proximanova-light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/proximanova-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/proximanova-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/proximanova-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Proxima Nova Semibold';
+  src: url('../fonts/proximanova-semibold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/proximanova-semibold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/proximanova-semibold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/proximanova-semibold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/proximanova-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/proximanova-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/proximanova-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/proximanova-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Proxima Nova Extrabold';
+  src: url('../fonts/proximanova-extrabold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/proximanova-extrabold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/proximanova-extrabold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/proximanova-extrabold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Benton Sans Bold';
+  src:  url('../fonts/BentonSansBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Benton Sans Regular';
+  src:  url('../fonts/BentonSansRegular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Benton Sans Light';
+  src:  url('../fonts/BentonSansLight.otf') format('opentype');
+}

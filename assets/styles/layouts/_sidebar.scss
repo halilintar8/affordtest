@@ -1,0 +1,52 @@
+.sidebar {
+  background-color: $color-7;
+  position: relative;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+
+  &:after {
+    content: '';
+    background-color: $color-7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: -100%;
+    top: 0px;
+  }
+
+  &__widget {
+    padding: 30px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+  }
+
+  .widget-title {
+    font-family: $font-BentonSansBold;
+    font-size: rem(22);
+    color: $color-1;
+    border-bottom: 2px dashed #ddd;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+  }
+
+  .category-box {
+    display: inline-block;
+    padding-left: 20px;
+    list-style: none;
+
+    li {
+      margin-bottom: 10px;
+      a {
+        font-family: $font-BentonSansRegular;
+        font-size: rem(18);
+        font-weight: 500;
+        line-height: 2.78;
+      }
+      &:before {
+        top:40%;
+      }
+    }
+  }
+
+}

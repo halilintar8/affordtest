@@ -1,0 +1,301 @@
+.page-header {
+  min-height: 208px;
+  background-color: $color-1;
+  padding: 43px 0px;
+  color: #FFFFFF;
+  border-bottom: 20px solid #ffff;
+  position: relative;
+  overflow: hidden;
+
+  .archive &, .search &{
+    border-bottom: 0px;
+  }
+
+  &__inner {
+    width: 100%;
+    @include vertical-align();
+    h1 {
+      font-family: $font-BentonSansBold;
+      font-size: rem(40);
+      text-shadow: 0 0 11px rgba(0, 0, 0, 0.25);
+      margin-bottom: 15px;
+      color: #FFFFFF;
+    }
+
+    h5 {
+      font-family: $font-BentonSansLight;
+      font-size: rem(24);
+      color: #FFFFFF;
+    }
+  }
+}
+
+.page-banner {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+
+  .action-center & {
+   // min-height: 200px;
+  }
+
+  .rectangle-2-a, .rectangle-2-b {
+    width: 180px;
+    height: 180px;
+  }
+  .rectangle-2-a {
+    right: -16px;
+    bottom: -69px;
+  }
+  .rectangle-2-b {
+    right: -127px;
+    bottom: 35px;
+  }
+}
+
+.page-content {
+  padding: 40px 0px;
+
+  .action-center & {
+    padding: 80px 0 150px;
+    background-color: $color-2;
+    color: #fff;
+    text-align: center;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #fff;
+    }
+  }
+}
+
+.section-col {
+  background-color: $color-1;
+  padding: 80px 0px;
+
+  .action-center {
+    margin-top: -160px;
+
+    .action-title {
+      color: $color-1;
+      margin-top: 0px;
+      text-transform: capitalize;
+      font-family: $font-BentonSansBold;
+      font-size: rem(36);
+    }
+
+    &__list {
+      @include media-breakpoint-up(xl) {
+        padding: 40px 65px;
+      }
+    }
+
+    .icon {
+      width: 116px;
+      height: 116px;
+      margin: 15px auto;
+    }
+
+    .double-btn {
+      .btn-main {
+        min-width: 180px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.wrap-partners {
+  margin: 30px 0px;
+
+  .partner-logo {
+    margin-bottom: 30px;
+  }
+}
+
+.section-contact-box {
+  background-color: $color-7;
+  padding: 0px 0px 80px;
+
+  &:before {
+    content: '';
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: absolute;
+  }
+
+  .action-center {
+    margin-top: 0px;
+
+    &__list {
+      @include media-breakpoint-up(md) {
+        padding: 40px 50px;
+      }
+    }
+  }
+
+  .desc {
+    margin-top: 40px;
+
+    &__inner {
+      color: $color-3;
+      padding: 30px 50px;
+
+
+      &:first-child {
+        padding-top: 0px;
+      }
+
+      &:last-child {
+        border-bottom: 0px;
+      }
+
+      &.contact_2 {
+        border-top: 2px dashed $color-8;
+      }
+
+    }
+
+    .form {
+      padding: 0px;
+    }
+
+  }
+}
+
+.ac-bottom-page {
+  background-color: $color-7;
+  padding: 0px 0px 80px;
+
+  &:before {
+    content: '';
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: absolute;
+  }
+
+  .action-center {
+    margin-top: 0px;
+
+  }
+}
+
+.section-action-now {
+  background-color:$color-2;
+  padding: 40px 0;
+  @include media-breakpoint-up(md) {
+    padding: 150px 0 0px;
+  }
+  @include media-breakpoint-up(xl) {
+         padding: 150px 0 50px;
+  }
+
+  &.with-intro {
+    padding-top: 0px;
+  }
+
+
+  h1 {
+    color: #FFFFFF;
+  }
+
+
+  .social-media-toolkit {
+    p {
+      color: #FFFFFF;
+      text-align: center;
+    }
+  }
+}
+
+.container-take-action {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+
+  &.open {
+    height: auto;
+    max-height: 2000px;
+
+  }
+
+  &__inner {
+    padding: 30px 0px 80px;
+  }
+
+  .block-form {
+    background-color: #FFFFFF;
+
+    header {
+      padding: 40px;
+      border-bottom: solid 1px #dddddd;
+
+      h2 {
+        text-transform: uppercase;
+        margin: 0px;
+      }
+    }
+
+  }
+
+}
+
+
+.section-community {
+
+  background: $color-3;
+
+  h1.text-center {
+    margin-bottom: 35px;
+    color: $color-7;
+  }
+  .community-outer {
+    margin-bottom: 30px;
+  }
+  .community-wrapper {
+    background: $color-7;
+    max-height: 400px;
+    overflow: hidden;
+
+    @include media-breakpoint-up(md) {
+      max-height: 600px;
+    }
+    .fb-page {
+      text-align: center;
+    }
+  }
+}
+.social-media-toolkit {
+ background: $color-1;
+  padding: 40px 0;
+  border-top: 35px solid $color-7;
+  &.section-action-now {
+    padding: 40px 0;
+  }
+  &.ac-bottom-page:before {
+    display: none;
+  }
+  &.ac-bottom-page .action-center {
+    margin-top: -160px;
+  }
+}
+
+.nav-about {
+  li {
+    padding-left: 0px;
+    margin-bottom: 20px;
+    &:before {
+      display: none;
+    }
+    a {
+      width: 100%;
+      @extend .btn-main;
+    }
+  }
+}

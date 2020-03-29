@@ -1,0 +1,60 @@
+.btn-main {
+  color: #ffffff;
+  background-color: $color-1;
+  font-size: rem(14) !important;
+  text-align: center;
+  font-family: $font-ProximaNovaRegular;
+  text-transform: uppercase;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 36px;
+  display: inline-block;
+  border: 1px solid $color-1;
+  @include hover() {
+    text-decoration: none;
+    color: $color-1;
+    background-color: #ffffff;
+    border: 1px solid $color-1;
+  }
+}
+
+.gform_button {
+  padding: 16px 64px;
+  margin: 0px !important;
+  @extend .btn-main;
+
+  .gf_browser_ie & {
+    padding: 15px 64px !important;
+  }
+
+  #header-top & {
+    background-color: $color-9;
+    border: 1px solid $color-9;
+    @include hover() {
+      text-decoration: none;
+      color: $color-1;
+      background-color: #ffffff;
+      border: 1px solid $color-1;
+    }
+  }
+
+  .footer-top & {
+    background-color: $color-9;
+    border: 1px solid $color-9;
+    @include hover() {
+      text-decoration: none;
+      color: $color-1;
+      background-color: #ffffff;
+      border: 1px solid $color-1;
+    }
+  }
+
+}
+
+.hamburger {
+  @include media-breakpoint-down(sm) {
+    padding: 10px 0px;
+    margin-right: -10px;
+  }
+}

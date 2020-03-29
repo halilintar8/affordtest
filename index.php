@@ -1,4 +1,4 @@
-<?php //get_template_part('templates/page', 'header')bc; ?>
+<?php //get_template_part('templates/page', 'header')bcdef; ?>
 
 <?php if (!have_posts()) : ?>
     <div class="alert alert-warning">

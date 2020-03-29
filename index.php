@@ -1,4 +1,4 @@
-<?php //get_template_part('templates/page', 'header')b; ?>
+<?php //get_template_part('templates/page', 'header')bc; ?>
 
 <?php if (!have_posts()) : ?>
     <div class="alert alert-warning">
@@ -12,4 +12,5 @@
 <?php endwhile; ?>
 
 <?php if ( function_exists('wp_bootstrap_pagination') )
-    wp_bootstrap_pagination(); ?>
+	wp_bootstrap_pagination(); ?>
+

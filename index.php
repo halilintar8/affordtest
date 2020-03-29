@@ -1,4 +1,4 @@
-<?php //get_template_part('templates/page', 'header')123456789; ?>
+<?php //get_template_part('templates/page', 'header')12345678; ?>
 
 <?php if (!have_posts()) : ?>
     <div class="alert alert-warning">
